@@ -1,5 +1,5 @@
 var React = require('react');
-
+var Popular = require('./Popular');
 // class App extends React.Component{
 //
 //     constructor(props){
@@ -20,7 +20,10 @@ var React = require('react');
 class App extends React.Component{
   render(){
     return(
-      <div>Hello World</div>
+      <div className='container'>
+        <Popular/>
+
+      </div>
     )
   }
 }
